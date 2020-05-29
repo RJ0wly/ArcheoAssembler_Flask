@@ -7,10 +7,24 @@ pip install Flask numpy opencv-python networkx matplotlib layers scipy
 pip install "keras<2.2.4"
 pip isntall "tensorflow<1.13.1"
 
-# metre jstopy.py et les scripts de cecilia dans le repertoire ArcheoAssembler
-# metre index.html dans le repertoire ArcheoAssembler/templates
-# metre index.js et index.css dans le repertoire ArcheoAssembler/static
-# metre les librairies jszip.js/sm.js/xls.js/xlsl.js/xmlToJSON.js dans le repertoire ArcheoAssembler/static/lib
+mkdir Data
+#importer dans ArcheoAssembler vos datas, votre dossier images et le tableur de métadonnées ainsi que les .xml et xsd.
+# mettre jstopy.py et les scripts de cecilia dans le repertoire ArcheoAssembler
+mkdir templates
+# créer un repertoire templates
+# mettre index.html dans le repertoire ArcheoAssembler/templates
+mkdir static
+cd static
+mkdir img
+# mettre flavon.ico dans le repertoire ArcheoAssembler/static/img/
+mkdir lib
+# mettre les librairies jszip.js/sm.js/xls.js/xlsl.js/xmlToJSON.js  dans le repertoire ArcheoAssembler/static/lib
+cd ..
+# mettre index.js,index.css, button.js conv.js disp_select.js, edit.js, filt.js  dans le repertoire ArcheoAssembler/static
+# créer un répertoire pour les images de résultats
+mkdir preprocessed_
+cd preprocessed_
+mkdir test
 
 # pour demarer le serveur :
 # export FLASK_APP=jstopy.py
