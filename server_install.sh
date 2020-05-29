@@ -21,7 +21,7 @@ mkdir img
 mkdir lib
 # mettre les librairies jszip.js/sm.js/xls.js/xlsl.js/xmlToJSON.js  dans le repertoire ArcheoAssembler/static/lib
 cd ..
-# mettre index.js,index.css, button.js conv.js disp_select.js, edit.js, filt.js  dans le repertoire ArcheoAssembler/static
+# mettre index.js,index.css  dans le repertoire ArcheoAssembler/static
 # créer un répertoire pour les images de résultats
 mkdir preprocessed_
 cd preprocessed_
