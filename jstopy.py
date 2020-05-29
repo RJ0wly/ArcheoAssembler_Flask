@@ -12,7 +12,6 @@ def index():
         print('ok')
         makePatches.imgToPatch(myjson["panier"]) # creer la liste des patches et save dans un fichier tfrecord
         import graphAssembly
-        graphAssembly
         print('ok2')
         return jsonify(myjson) # encode en json (dict > json)
     return render_template("index.html") # affiche la page de l'interface
