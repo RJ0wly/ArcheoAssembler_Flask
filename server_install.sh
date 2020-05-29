@@ -9,7 +9,8 @@ pip isntall "tensorflow<1.13.1"
 
 mkdir Data
 #importer dans ArcheoAssembler vos datas, votre dossier images et le tableur de métadonnées ainsi que les .xml et xsd.
-# mettre jstopy.py et les scripts de cecilia dans le repertoire ArcheoAssembler
+# mettre jstopy.py et les scripts de python dans le repertoire ArcheoAssembler
+# mettre le fichier patchAssemble_ost2.h5 dans le repertoire ArcheoAssembler
 mkdir templates
 # créer un repertoire templates
 # mettre index.html dans le repertoire ArcheoAssembler/templates
@@ -25,6 +26,7 @@ cd ..
 mkdir preprocessed_
 cd preprocessed_
 mkdir test
+
 
 # pour demarer le serveur :
 # export FLASK_APP=jstopy.py
