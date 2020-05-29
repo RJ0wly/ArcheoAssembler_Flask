@@ -5,7 +5,7 @@ virtualenv -p /usr/bin/python2.7 venv
 . venv/bin/activate #refaire cette ligne à chaque lancement du projet
 pip install Flask numpy opencv-python networkx matplotlib layers scipy
 pip install "keras<2.2.4"
-pip isntall "tensorflow<1.13.1"
+pip install "tensorflow<1.13.1"
 
 mkdir Data
 # importer dans ArcheoAssembler vos datas, votre dossier images et le tableur de métadonnées ainsi que les .xml et xsd.
